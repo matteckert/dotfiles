@@ -21,3 +21,4 @@ alias dotcd='homeshick cd dotfiles'
 alias dotadd='git --git-dir=$HOME/.homesick/repos/dotfiles/.git --work-tree=$HOME/.homesick/repos/dotfiles add .'
 alias dotpush='git --git-dir=$HOME/.homesick/repos/dotfiles/.git --work-tree=$HOME/.homesick/repos/dotfiles push origin master'
 alias dotcommit='git --git-dir=$HOME/.homesick/repos/dotfiles/.git --work-tree=$HOME/.homesick/repos/dotfiles commit -m'
+
