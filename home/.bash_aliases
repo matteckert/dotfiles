@@ -10,5 +10,14 @@ alias clean='sudo apt-get clean'
 alias show='apt-cache show'
 
 alias tree='tree -C'
-alias dotadd='homeshick track dotfiles'
 
+
+# homeshick dotfiles castle aliases
+alias dottrack='homeshick track dotfiles'
+alias dotlink='homeshick link dotfiles'
+alias dotpull='homeshick pull dotfiles'
+alias dotcheck='homeshick check dotfiles'
+alias dotcd='homeshick cd dotfiles'
+alias dotadd='git --git-dir=$HOME/.homesick/repos/dotfiles/.git --work-tree=$HOME/.homesick/repos/dotfiles add .'
+alias dotpush='git --git-dir=$HOME/.homesick/repos/dotfiles/.git --work-tree=$HOME/.homesick/repos/dotfiles push origin master'
+alias dotcommit='git --git-dir=$HOME/.homesick/repos/dotfiles/.git --work-tree=$HOME/.homesick/repos/dotfiles commit -m'
